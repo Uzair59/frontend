@@ -11,6 +11,7 @@ function Home() {
   useEffect(() => {
     setLoggedInUser(localStorage.getItem("loggedInUser"));
   }, []);
+  // uji
 
   const handleLogout = (e) => {
     localStorage.removeItem("token");
